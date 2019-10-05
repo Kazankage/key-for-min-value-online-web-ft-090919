@@ -5,3 +5,5 @@ def key_for_min_value(hash)
     key
   end
 end
+
+key_for_min_value(hash)
