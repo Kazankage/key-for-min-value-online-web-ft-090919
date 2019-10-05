@@ -7,4 +7,4 @@ def key_for_min_value(hash)
 end
 
 puts key_for_min_value(hash)
-puts hash[:blake]
+puts hash[1]
