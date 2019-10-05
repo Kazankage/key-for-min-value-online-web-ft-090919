@@ -1,4 +1,4 @@
-hash = {:blake => 500, :ashley => 2, :adam => 1}
+hash = {:blake => 500, :ashley => 2, :adam => 50}
 
 def key_for_min_value(hash)
   lowest_value = 0 
