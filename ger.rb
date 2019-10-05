@@ -6,4 +6,4 @@ def key_for_min_value(hash)
   end
 end
 
-print key_for_min_value(hash)
+puts key_for_min_value(hash)
