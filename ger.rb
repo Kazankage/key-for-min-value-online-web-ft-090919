@@ -5,7 +5,7 @@ def key_for_min_value(hash)
   hash.collect do |key, value| 
     value_arr << value
   end
-  value_arr
+  value_arr.each_with_index {|num, index| num <=> value_arr[index + 1] }
 end
 
 puts key_for_min_value(hash)
