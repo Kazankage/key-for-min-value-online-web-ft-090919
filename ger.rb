@@ -9,3 +9,4 @@ def key_for_min_value(hash)
 end
 
 puts key_for_min_value(hash)
+print key_for_min_value(hash)
